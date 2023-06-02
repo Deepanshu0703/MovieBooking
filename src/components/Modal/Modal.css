@@ -1,0 +1,99 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    align-items: center;
+    position: relative;
+    padding: 16px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modal-text {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    color: #666;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.confirm-button {
+    color: #fff;
+    background-color: #1551d5;
+}
+
+.confirm-button:hover {
+    background-color: #1a42ac;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    margin: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.input {
+    width: 60%;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    color: #111827;
+    outline: #1551d5;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    padding: 0.625rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        width: 80vw;
+    }
+}

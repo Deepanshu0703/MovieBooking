@@ -1,0 +1,19 @@
+.show-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.show-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 85vw;
+    margin: 15px 0px;
+}
+
+.card-container {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+nav {
+    background-color: #7c6565;
+    padding: 10px 16px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-link {
+        font-size: 18px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}

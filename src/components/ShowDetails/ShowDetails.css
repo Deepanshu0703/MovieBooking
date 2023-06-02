@@ -1,0 +1,126 @@
+.show-main-container {
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-details-wrapper {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-image {
+    width: 20%;
+    min-width: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
+
+.show-info {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.show-language {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.show-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.show-description {
+    line-height: 1.5;
+    color: #666464;
+    margin-bottom: 1rem;
+}
+
+.genre-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 8px;
+}
+
+.show-status {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.show-info-list {
+    width: 60%;
+    min-width: 250px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    list-style-type: none;
+}
+
+.list-item {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-item:last-child {
+    border-bottom: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.back-button-wrapper {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .show-details-wrapper {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .show-info {
+        width: 80vw;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 2rem;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .price-action {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .price {
+        margin-bottom: 0.5rem;
+    }
+
+    .round-button {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
